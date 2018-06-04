@@ -1,0 +1,21 @@
+#listCon{border-top: 1px solid #eee;min-height: 400px;}
+#listCon .li-top{height: 46px;line-height: 46px;}
+#listCon .li-top a{font-size: 12px;}
+/*#listCon .li-top input{width: 120px;height: 26px;border:1px solid #ccc;}*/
+
+#listCon .libm-l{width: 180px;min-height: 300px;padding:10px 40px 0 0;}
+#listCon .libm-r{width: 980px;}
+#listCon .libm-l h1{font-size: 15px;color: #000;line-height: 40px;font-weight: 700;border-bottom: 1px solid #000;}
+#listCon .libm-l a{font-size: 12px;line-height: 18px;}
+#listCon .libm-r li{width: 230px;float: left;margin:15px 15px 0 0;}
+#listCon .libm-r img{width: 230px;height: 325px;}
+#listCon .libm-r .Gname{color:#919191;}
+#listCon .libm-r .Gdz{display:inline-block;width: 40px;height: 18px;margin-left: 80px;border:1px solid #f8584f;text-align: center;color:#f8584f;line-height: 18px;font-size: 12px;}
+#listCon .libm-r .Gshu{display:block;text-overflow：ellipsis;width:230px;height:20px;white-space：nowrap;overflow: hidden;}
+#listCon .libm-r .Gold{font-size: 14px;}
+#listCon .yema{margin-top:30px;}
+#listCon .yema li{float:left;border:1px solid #eee;padding: 5px 10px;font-size: 12px;margin-left:10px;cursor: pointer;}
+#listCon .yema li:hover{border:1px solid red;}
+#listCon .yema .hov{border:1px solid red;}
+
+

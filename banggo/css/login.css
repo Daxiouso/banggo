@@ -1,0 +1,55 @@
+.nei{width: 980px;margin:0 auto;}
+/*login-t*/
+#login-t{height: 100px;}
+#login-t h1{text-indent: -1000em;}
+
+/*login-b*/
+#login-b .l-main{height: 480px;margin-top: 25px;}
+#login-b .l-main .main-l{width: 640px;height: 430px;}
+#login-b .l-main .main-r{width: 340px;height: 480px;}
+#login-b .l-main .l-title h3{height: 36px;float:left;color:#666;font-size: 14px;padding:0 30px;font-weight: bold;border: 1px solid #ccc;cursor: pointer;background:#fff;border-right: none;}
+#login-b .l-main .l-title .a{border-right:none;}
+#login-b .l-main .l-title .hover{
+    height: 35px;
+    padding:0 30px;
+    border-top:2px solid red ;
+    border-bottom:1px solid #fff;
+}
+#login-b .l-main .l-title span{
+    display:block;
+    margin-top: 9px;
+}
+#login-b .l-main .l-title h3:hover .span{
+    margin-top: 8px;
+}
+#login-b .l-main .l-con{height: 410px;width: 336px;border: 1px solid #ccc;border-top:none;padding-top: 30px;}
+
+#login-b .l-main .inp{height: 30px;margin-bottom: 20px;}
+#login-b .l-main .inp label{display:block;text-align: right;width: 80px;font-size: 14px;color:#666;line-height: 30px;}
+#login-b .l-main .inp input{width: 225px;height: 28px;border:1px solid #ccc;padding-left: 5px;}
+#login-b .l-main .inp .yanZ{width: 55px;height: 28px;border:1px solid #ccc;padding-left: 5px;}
+#login-b .l-main .inp .yMa{width: 60px;height: 30px;background:skyblue;border-radius: 5px;margin-left: 10px;font-size: 14px;line-height: 30px;text-align: center;font-weight: bold;}
+#login-b .l-main .inp .l-hu{font-size: 12px;margin-left: 5px;cursor: pointer;}
+#login-b .l-main .inp .l-xuan{width: 225px;height: 28px;}
+#login-b .l-main .inp .l-j{width: 12px;height: 12px;margin-top: 10px;}
+#login-b .l-main .inp .l-mi{margin-left:-25px;font-size: 12px;color:#000;}
+#login-b .l-main .inp .l-d{margin-left: 30px;}
+#login-b .l-main .inp .btn-login{display:block;width: 104px;height:34px;background:url('../img/buttons.png') 0 0 no-repeat;cursor: pointer;}
+#login-b .l-main .inp .btn-login:hover{background:url('../img/buttons.png') 0 -42px no-repeat;}
+#login-b .l-main .inp .l-zhao{height: 34px;line-height: 34px;font-size: 12px;text-decoration:underline;margin-left:10px;}
+#login-b .l-main .l-buttom{height: 60px;margin:0 10px;border-top: 1px solid #eee;}
+#login-b .l-main .l-buttom span{display: block;font-size: 12px;line-height: 60px;}
+#login-b .l-main .l-buttom a{display:block;width: 98px;height:28px;line-height: 30px;background:#EEEEEE;border-radius: 5px;border:1px solid #ccc;text-align: center;font-size: 12px;color:#404040;margin: 15px 0 0 10px;}
+#login-b .l-main .l-buttom a:hover{border:1px solid #999;}
+#login-b .l-main .lz-login{width: 300px;height: 90px;border:1px solid #ccc;margin:0 15px;}
+#login-b .l-main .lz-login h4{background:#efefef;padding:0 8px;font-size: 14px;height:30px;line-height: 30px;color:#404040;}
+#login-b .l-main .lz-login a{display:block;width: 99px;height:29px;float:left;border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;line-height: 30px;text-align: center;font-size: 12px;}
+#login-b .l-main .lz-login .a-qq{background:#FFF url('../img/icon_login.png') 0px -5px no-repeat;}
+#login-b .l-main .lz-login .a-zfb{background:#FFF url('../img/icon_login.png') 0px -55px no-repeat;}
+#login-b .l-main .lz-login .a-wx{background:#FFF url('../img/icon_login.png') 0px -100px no-repeat;}
+
+
+/*login-w*/
+#login-w{height: 40px;line-height: 40px;text-align: center;font-size: 12px;}
+#login-w a{font-size: 12px;}
+#login-w a:hover{text-decoration:underline;}

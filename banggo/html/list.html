@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>list</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+    <script src="../js/require.js" data-main = "../js/listall.js"></script>
+</head>
+<body>
+    <div id="box">
+        <xheader></xheader>
+        <div id="listCon">
+            <div class="container clearfix">
+                <div class="li-top">
+                    <a href="#">邦购网首页</a>&gt;
+                    <a href="#">所有分类</a>&gt;
+                    <a href="#">男装</a>&gt;
+                    <a href="#">T恤</a>&gt;
+                    <a href="#">短袖T恤</a>&gt;
+
+                    <input type="text" />
+                </div>
+                <div class="li-bm">
+                    <div class="libm-l fl">
+                        <h1>分类</h1>
+                        <p><a href="#">短袖T恤</a></p>
+                    </div>
+                    <ul class="libm-r fl">
+                        <!-- <li>
+                            <a href="#"><img src="../css/gImg/goods01.jpg" alt="" /></a>
+                            <p ><a href="#" class="Gname">米郎骑士</a><label class="Gdz">5折</label></p>
+                            <p><a href="#" class="Gshu">基础纯棉舒适男士休闲圆领短袖印花T恤【一件包邮】</a></p>
+                            <p>￥<b class="Gprict">38.9</b> <del class="Gold">39.00</del></p>
+                        </li> -->
+                    </ul>
+                    <ul class="yema fr">
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li class="tp">下一页</li>
+                        <li class="tw">尾页</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <xfloor></xfloor>
+    </div>
+<script src="../js/jquery-3.2.1.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+<script src="../js/list.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(document).click(function(e){
+        var cid = $(e.target).attr('data-guid');
+        document.cookie = 'goodsid=' + JSON.stringify(cid) + ';path=/';
+    });
+});
+</script>
+
+</body>
+</html>

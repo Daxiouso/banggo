@@ -1,0 +1,25 @@
+.nei{width: 980px;margin:0 auto;}
+/*login-t*/
+#reg-t{height: 100px;}
+#reg-t h1{text-indent: -1000em;}
+#reg-con .reg-top{height: 26px;border-bottom: 2px solid #6E6E6E;}
+#reg-con .reg-top .top-ti{width: 160px;height: 26px;background:url('../img/buttonSkin.png') 0 -450px no-repeat;font-size: 15px;font-weight: bold;color:#fff;text-align: center;line-height: 26px;}
+#reg-con .reg-top .top-con{height: 330px;border:1px solid #ccc;margin-top: 10px;}
+#reg-con .reg-top .con-l{width: 738px;height: 306px;padding:20px 0 0 20px;}
+#reg-con .reg-top .con-lti{height: 30px;border-bottom: 1px solid #eee;font-size: 14px;line-height: 30px;padding-left: 10px;}
+#reg-con .reg-top .inp{height: 30px;margin-top: 25px;}
+#reg-con .reg-top .inp span{display:block;color:#999;margin-left:10px;font-size: 12px;vertical-align:top;width: 300px;float:left;}
+#reg-con .reg-top .inp label{display:block;text-align: right;width: 120px;font-size: 14px;color:#666;line-height: 30px;}
+#reg-con .reg-top .inp input{width: 240px;height: 28px;border:1px solid #ccc;padding-left: 5px;background:url('../img/iconSkin.png') 0 -700px repeat-x;}
+#reg-con .reg-top .inp .yanZ{width: 55px;height: 28px;border:1px solid #ccc;padding-left: 5px;}
+#reg-con .reg-top .inp .yMa{width: 60px;height: 30px;background:#eee;border-radius: 5px;margin-left: 10px;font-size: 14px;line-height: 30px;text-align: center;font-weight: bold;}
+#reg-con .reg-top .inp .l-hu{font-size: 12px;margin-left: 5px;cursor: pointer;}
+#reg-con .reg-top .inp .l-xuan{width: 225px;height: 28px;}
+#reg-con .reg-top .inp .btn-reg{display:block;width: 152px;height:34px;background:url('../img/buttons.png') -225px -252px no-repeat;cursor: pointer;}
+#reg-con .reg-top .inp .btn-reg:hover{background:url('../img/buttons.png') -225px -294px no-repeat;}
+#reg-con .con-r{width: 219px;height: 320px;background:url('../img/con-r.png') no-repeat;}
+
+/*login-w*/
+#reg-w{height: 40px;line-height: 60px;text-align: center;font-size: 12px;}
+#reg-w a{font-size: 12px;}
+#reg-w a:hover{text-decoration:underline;}
